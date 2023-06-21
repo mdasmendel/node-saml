@@ -4,6 +4,7 @@ export type PemLabel = "CERTIFICATE" | "PUBLIC KEY" | "PRIVATE KEY";
 
 export interface SamlSigningOptions {
   privateKey: string | Buffer;
+  pubKey?: string | Buffer;
   signatureAlgorithm?: SignatureAlgorithm;
   xmlSignatureTransforms?: string[];
   digestAlgorithm?: string;
