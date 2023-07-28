@@ -1,6 +1,6 @@
 {
-  "name": "@node-saml/node-saml",
-  "version": "4.0.4",
+  "name": "@dascal/node-saml",
+  "version": "4.1.0",
   "description": "SAML 2.0 implementation for Node.js",
   "keywords": [
     "saml",
@@ -10,13 +10,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/node-saml/node-saml.git"
+    "url": "https://github.com/mdasmendel/node-saml"
   },
   "license": "MIT",
   "author": {
-    "name": "Henri Bergius",
-    "email": "henri.bergius@iki.fi",
-    "url": "http://bergie.iki.fi"
+    "name": "Henri Bergius | Mihai Dascal",
+    "email": "henri.bergius@iki.fi | dascal.mi@mail.com",
+    "url": "https://corlab.tech"
   },
   "contributors": [
     "Michael Bosworth",
@@ -25,7 +25,8 @@
     "Mark Stosberg",
     "Chris Barth",
     "Andrii Kostenko",
-    "Andreas Zoellner"
+    "Andreas Zoellner",
+    "Dascal Mihai"
   ],
   "main": "./lib",
   "files": [

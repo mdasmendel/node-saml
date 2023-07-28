@@ -14,7 +14,7 @@ import {
 } from "./types";
 import * as algorithms from "./algorithms";
 import { assertRequired } from "./utility";
-import {KeyInfoProvider} from "./provider-info";
+import { KeyInfoProvider } from "./provider-info";
 
 type SelectedValue = string | number | boolean | Node;
 
@@ -175,7 +175,7 @@ export const signXml = (
   }
   sig.addReference(xpath, transforms, algorithms.getDigestAlgorithm(options.digestAlgorithm));
   sig.signingKey = options.privateKey;
-  if(options.pubKey){
+  if (options.pubKey) {
     sig.keyInfoProvider = new KeyInfoProvider(options.pubKey);
   }
   sig.computeSignature(xml, {
